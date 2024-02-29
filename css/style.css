@@ -371,3 +371,8 @@ nav {
     left: 0;
     width: 35vw;
 }
+.iconos{
+    display: flex;
+    justify-content: center;
+    height: 50px;
+}
