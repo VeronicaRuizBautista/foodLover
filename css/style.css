@@ -14,12 +14,12 @@ header{
     height: 100vh;
 }
 
+
 .pag1 {
     flex-direction: column;
     display: flex;
     height: 99vh;
-    width: 195vh;
-    
+    width: 100%;
 }
 .section1{
     display: flex;
@@ -172,7 +172,7 @@ nav {
     height: 110vh;
 }
 .forma {
-    width: 99vw;
+    width: 100%;
 }
 .container3 {
     width: 50vw;
@@ -227,16 +227,15 @@ nav {
     color: var(--color-font);
 }
 .divpag3 > h1 {
-    padding-top:  250px;
-    padding-bottom: 50px;
+    padding-top:  10vh;
+    padding-bottom: 5vh;
     font-size: 2vw;
     font-weight: bold;
 }
 .galeria {
-    width: 48vw;
+    width: 50vw;
     display: flex;
     flex-wrap: wrap;
-    inset: 0;
     margin: auto;
 }
 .img7 {
@@ -255,8 +254,8 @@ nav {
 }
 .container4 {
     outline: 10px solid var(--color-primary);
-    width: 870px;
-    height: 700px;
+    width: 50vw;
+    height: 75vh;
     color: var(--color-font);
     padding: 10px;
     align-items: center;
